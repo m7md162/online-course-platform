@@ -128,3 +128,66 @@ a {
     box-shadow: 0px 6px 13px 0px #0000001A;
 
 }
+
+.education-program {
+    width: 100%;
+    height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+
+}
+.education-program .banner {
+    display: block;
+    width: 60%;
+    align-self: center;
+    border-radius: 50px;
+    box-shadow: 10px 15px 39px 0px #0000001A;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.education-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+figure {
+    background-color: #DBDBDB;
+    padding: 20px;
+    width: calc(100/3);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+figure img {
+    width: 40px;
+    height: 40px;
+}
+figure h3 {
+    font-size: 20px;
+    text-wrap: nowrap;
+    margin-bottom: 30px;
+    
+}
+figure p {
+    font-size: 15px;
+    line-height: 35px;
+   
+}
+
