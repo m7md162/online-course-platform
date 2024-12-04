@@ -218,12 +218,12 @@
     -o-border-radius: 20px;
     text-transform: capitalize;
 }
-  .details-of-course .details figure h3 {
+  .details-of-course .details figure h3 ,.benefits-of-course .benefits figure h3 {
     font-size: 1.2rem;
     font-weight: 500;
     
   }
-  .details-of-course .details figure p{
+  .details-of-course .details figure p ,.details-of-course .details figure p{
     margin-top: 10px;
     font-size: 1rem;
     font-weight: 400;
@@ -231,3 +231,44 @@
 
 
   }
+
+
+  .benefits-of-course {
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .benefits-of-course h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .benefits-of-course .benefits {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+    padding: 2rem;
+    margin-top: 10px;
+  }
+
+  .benefits-of-course figure img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+  .benefits-of-course .benefits figure {
+    height: 150px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-transform: capitalize;
+}
