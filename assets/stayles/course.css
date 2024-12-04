@@ -131,4 +131,47 @@
     box-shadow: 0px 6px 13px 0px #0000001a;
     cursor: pointer;
   }
+  .our-corses {
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .our-corses h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .courses {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+  }
+  .courses figure {
+    width: calc((100% - 20px)/3);
+  }
+  .courses figure img {
+    width: 100%;
+    height: 100%;
+  }
+  .courses figcaption {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .courses figcaption h3{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 0px;
+   
+  }
+  .courses figcaption p{
+    font-size: 1.2rem;
+    font-weight: 500;
+   
+  }
   
