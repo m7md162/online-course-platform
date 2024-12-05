@@ -13,7 +13,7 @@
     />
 </head>
 <body>
-    <section class="home-page">
+    <main class="home-page">
         <div class="header">
             <div class="logo">
             <a href="#">enrollment form</a>
@@ -31,7 +31,7 @@
             </nav>
         </div>
 
-        <div class="personal-form">
+        <section class="personal-form padding">
             <h2>personal information </h2>
             <form action="#">
                 <div class="name-mail row">
@@ -52,13 +52,13 @@
                         <label for="phone-number"> phone number</label>
                         <input type="number" id="phone-number" name="phone-number" placeholder="enter your phone number" >
                     </div>
-                    <div class="birh">
+                    <div class="birth">
                         <label for="date-of-birth">date of birth</label>
                         <input type="date" id="date-of-birth" name="date-of-birth">
                     </div>
                     
                 </div>
-                <div class="checkbox">
+                <div class="check">
                     <input type="radio" id="male" name="gender">
                     <label for="male">male</label>
                     <input type="radio" id="female" name="gender">
@@ -68,16 +68,87 @@
                    <input type="submit" value="next" class="btn">
 
             </form>
-           </div>
+           </section>
         </div>
+        </div>
+        <section class="courses padding">
+            <h2>course selection</h2>
+
+            <form action="#" class="space-items">
+                <div class="choice">
+                    <div class="check">
+                        <h3>course name</h3>
+                        <input type="checkbox" id="one" name="course one">
+                        <label for="one">course one</label>
+        
+                        <input type="checkbox" id="two" name="course two">
+                        <label for="two">course two</label>
+        
+                        <input type="checkbox" id="three" name="course three">
+                        <label for="three">course three</label>
+                    </div>
+                    <div class="check">
+                        <h3>preferred time</h3>
+                        <input type="radio" id="AM" name="time">
+                        <label for="AM">morning</label>
+    
+                        
+                        <input type="radio" id="middle" name="time">
+                        <label for="middle">afternoon</label>
+    
+                        <input type="radio" id="PM" name="time">
+                        <label for="PM"> evening</label>
+                    </div>
+                </div>
+
+                <div class="selection-time">
+                    <label for="start-time">preferred start time</label>
+                    <input type="datetime-local" id="start-time">
+
+                </div>
+                </form>
+
+                <div class="buttons">
+                    <input type="submit" value="back" class="btn white">
+                    <input type="submit" value="next" class="btn">
+                </div>
+                
+        </section>
+
+        <section class="payment padding">
+            <h2>payment details </h2>
+            <form action="#">
+                <div  class="row" >
+                   <div class="credit" >
+                    <label for="credit-card"> credit card number</label>
+                    <input type="number" id="credit-card" placeholder="enter your credit card number">
+                   </div>
+
+                    <div class="expiration">
+                        <label for="expiration">expiration date</label>
+                    <input type="date" id="expiration">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cvv">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" placeholder="enter CV V">
+                    </div>
+                    <div class="billing">
+                        <label for="billing">billing address</label>
+                    <input type="email" id="billing" placeholder="enter your billing address">
+                    </div>
+                    
+
+                </div>
+            </form>
+            <div class="buttons">
+                <input type="submit" value="back" class="btn white">
+                <input type="submit" value="next" class="btn">
+            </div>
+        </section>
         
 
-
-
-
-        </div>
-        
-
-    </section>
+    </main>
 </body>
 </html>
