@@ -106,12 +106,12 @@ h2 {
 .row label {
   display: block;
   text-transform: capitalize;
-  padding: 10px;
+  padding: 10px 0px;
 }
-.numbers-dates {
+.top-space {
   margin: 20px 0px;
 }
-
+/* name of div that carry {input + label} */
 .name-of-user,
 .mail-of-user,
 .phone,
@@ -119,11 +119,13 @@ h2 {
 .expiration,
 .credit,
 .billing,
-.cvv
- {
+.cvv,
+.pass-of-user,
+.confirm,
+.security-answer {
   width: calc(100% / 2);
 }
-/* same checkbox radio*/
+/* same {checkbox + radio}*/
 .check {
   text-transform: capitalize;
   margin: 10px 0px;
@@ -154,15 +156,15 @@ h2 {
   justify-content: space-between;
 }
 .space-items .selection-time {
-    width: 40%;
+  width: 40%;
 }
 
-.space-items .selection-time label,h3 {
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin: 10px 0px;
-    text-transform: capitalize;
-
+.space-items .selection-time label,
+h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 10px 0px;
+  text-transform: capitalize;
 }
 
 .space-items .selection-time input {
@@ -179,18 +181,15 @@ h2 {
   -o-border-radius: 10px;
 }
 .choice {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
- .buttons {
-    margin: 10px 0px;
-    display: flex;
-
+.buttons {
+  margin: 10px 0px;
+  display: flex;
 }
 .white {
-    background-color: #ffffff;
-    color: #000000;
+  background-color: #ffffff;
+  color: #000000;
 }
-
-

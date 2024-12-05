@@ -45,8 +45,9 @@
                     <input type="email" id="mail" name="user email" placeholder="enter your email" required>
                    </div>
                 </div>
-
-                <div class="numbers-dates row">
+<!-- top-space margin top  -->
+ <!-- row for display flex to make items next to others -->
+                <div class="numbers-dates row top-space">
 
                     <div class="phone">
                         <label for="phone-number"> phone number</label>
@@ -129,7 +130,7 @@
                     <input type="date" id="expiration">
                     </div>
                 </div>
-                <div class="row">
+                <div class="row top-space">
                     <div class="cvv">
                         <label for="cvv">CVV</label>
                         <input type="text" id="cvv" placeholder="enter CV V">
@@ -147,7 +148,40 @@
                 <input type="submit" value="next" class="btn">
             </div>
         </section>
-        
+        <section class="setup padding">
+            <h2>account setup</h2>
+
+            <form action="#">
+                <div class="name-pass row">
+                    <div class="name-of-user">
+                        <label for="user-name">username</label>
+                    <input type="text" id="user-name" name="user name" placeholder="enter your full name" required autofocus>
+                    </div>
+
+                   <div class="pass-of-user">
+                    <label for="pass">password</label>
+                    <input type="password" id="pass" name="user password" placeholder="enter your password" required>
+                   </div>
+                </div>
+
+                <div class="row top-space">
+                    <div class="confirm">
+
+                        <label for="pass"> confirm password</label>
+                        <input type="password" id="pass" name=" confirm user password" placeholder="confirm your password" required>
+                    </div>
+                    <div class="security-answer">
+                        <label for="security">security answer</label>
+                        <input type="password" id="security" name="security answer" placeholder="enter your security answer">
+                    </div>
+                </div>
+            </form>
+            <div class="buttons">
+                <input type="submit" value="back" class="btn white">
+                <input type="submit" value="next" class="btn">
+            </div>
+
+        </section>
 
     </main>
 </body>
