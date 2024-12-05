@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.home-page .header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+.logo a {
+  text-transform: capitalize;
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.header nav ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.header nav ul li a {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.search-bar {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+}
+.search-bar img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: inherit;
+  text-align: center;
+}
+
+.personal-form {
+  width: 100%;
+  padding: 3rem 6rem;
+  border-bottom: 2px solid gray;
+}
+.personal-form h2 {
+  text-align: center;
+  margin: 20px 0px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.row {
+  display: flex;
+  gap: 50px;
+}
+.row input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+  text-align: center;
+  outline: none;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.row label {
+  display: block;
+  text-transform: capitalize;
+  padding: 10px;
+}
+.numbers-dates {
+  margin: 20px 0px;
+}
+
+.name-of-user,
+.mail-of-user,
+.phone,
+.birh {
+  width: calc(100% / 2);
+}
+
+.checkbox {
+    text-transform: capitalize;
+    margin: 10px 0px;
+}
+.checkbox label  {
+    margin-right: 20px;
+}
+.btn {
+    display: block;
+    width: 30%;
+margin:20px auto ;    
+background-color: #000000;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+
+}
