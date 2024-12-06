@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+  }
+  ul li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .home-page .header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+  }
+  .logo a {
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  .header nav ul li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
+  .header nav ul li a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .search-bar {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+  }
+  .search-bar img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: inherit;
+    text-align: center;
+  }
+.course-selection ,.payment-details {
+    width: 100%;
+    padding: 3rem 6rem;
+    border-bottom: 2px solid gray;
+  }
+  .course-selection .selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  /* all h2 */
+  h2 {
+    margin: 20px 0px;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .home-page .selection,.details p {
+    font-weight: 400;
+  }
+
+
+  .space-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .space-items .selection-time {
+    width: 40%;
+  }
+  
+  .space-items .selection-time label,
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 10px 0px;
+    text-transform: capitalize;
+  }
+  
+  .space-items .selection-time input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .choice {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .check {
+    text-transform: capitalize;
+    margin: 10px 0px;
+  }
+  .check label {
+    margin-right: 20px;
+  }
+  .buttons {
+    margin: 10px 0px;
+    display: flex;
+  }
+  
+  .btn {
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+  .white {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .payment-details {
+    width: 100%;
+    display: flex;
+    border: none;
+    justify-content: space-between;
+  }
+  .payment-details .column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .form label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 0px;
+    text-transform: capitalize;
+  }
+  .form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+.confirm {
+    width: 100%;
+}
